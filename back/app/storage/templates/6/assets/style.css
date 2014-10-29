@@ -1,0 +1,28 @@
+body {
+	padding-top: 60px;
+}
+
+.footer {
+	text-align: center;
+	padding: 1em;
+	margin-top: 2em;
+	border-top: 1px solid {{ $Basic->ThemeColor }};
+}
+a { color: {{ $Basic->ThemeColor }}; }
+a:hover { color: black; }
+
+.navbar-inverse {
+	background-color: {{ $Basic->ThemeColor }};
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+	color: black;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+	color: {{ $Basic->ThemeColor }};
+}

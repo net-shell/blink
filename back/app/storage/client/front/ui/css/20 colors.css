@@ -1,0 +1,9 @@
+body { background: url(<?php echo $AssetsUrl; ?>/ui/images/back.jpg); }
+.page > .editor { background: url(<?php echo $AssetsUrl; ?>/ui/images/editor.jpg); }
+.page > .editor > .container { background-color: #fff; }
+.menu, .menu .button.item { background: none !important; }
+.navigation .menu .active.item { border-top: 4px solid #ccc; }
+.navigation .menu .preview.group	.item:hover { background-color: #9F5620 !important; }
+.navigation .menu .preview.active	.item:hover { background-color: #E19948 !important; }
+.navigation .menu .actions.group	.item:hover { background-color: #989E21 !important; }
+.navigation .menu .tabs.group		.item:hover { background-color: #22709D !important; }

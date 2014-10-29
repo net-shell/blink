@@ -1,0 +1,28 @@
+{
+	"info": {
+		"name": "Zlatanoff Fashion",
+		"author": {
+			"name": "Ivan Zlatanov",
+			"contact": "netsales.bg"
+		}
+	},
+	"settings": {
+		"Basic": {
+			"Copyright": {
+				"v": "Ash"
+			},
+			"Theme Color": {
+				"i": "The accent color of the theme.",
+				"t": "color",
+				"v": "33802c"
+			}
+		}
+	},
+	"presets": {
+		"Blue": {
+			"Basic": {
+				"Theme Color": "33802c"
+			}
+		}
+	}
+}
